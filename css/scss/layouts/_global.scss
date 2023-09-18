@@ -1,0 +1,33 @@
+// Global Rules
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+// End of Global Rules
+
+
+// Container
+.container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+// Large screens
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+// Large screens
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        width: 750px;
+    }
+}
+
