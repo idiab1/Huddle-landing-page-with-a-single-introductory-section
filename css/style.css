@@ -1,0 +1,115 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (max-width: 767.98px) {
+  .container {
+    width: 750px;
+  }
+}
+.app {
+  background: url("../../../images/bg-desktop.svg") center center no-repeat hsl(257deg, 40%, 49%);
+  background-size: contain;
+}
+.app .navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.app .navbar img {
+  width: 235px;
+  height: 50px;
+}
+.app .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 20px;
+}
+.app .content .info {
+  position: relative;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.app .content .info h1 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.app .content .info p {
+  color: #fff;
+  line-height: 1.7;
+  font-size: 15px;
+}
+.app .content .info button {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  padding: 13px 55px;
+  border-radius: 35px;
+  box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.2);
+  color: hsl(257deg, 40%, 49%);
+  transition: all 0.27s ease-in;
+}
+.app .content .info button:hover {
+  color: #fff;
+  background-color: hsl(300deg, 69%, 71%);
+}
+.app .content .info .social-media {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.app .content .info .social-media > div {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 30px;
+  transition: all 0.27s ease-in;
+}
+.app .content .info .social-media > div a {
+  color: #fff;
+  display: block;
+}
+.app .content .info .social-media > div:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.app .content .info .social-media > div:hover {
+  border: 1px solid hsl(300deg, 69%, 71%);
+}
+.app .content .info .social-media > div:hover a {
+  color: hsl(300deg, 69%, 71%);
+  transition: all 0.27s ease-in;
+}
+
+footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}
+footer p a {
+  text-decoration: none;
+  color: hsl(257deg, 40%, 49%);
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
