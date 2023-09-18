@@ -72,9 +72,8 @@ body {
   line-height: 30px;
   transition: all 0.27s ease-in;
 }
-.app .content .info .social-media > div a {
+.app .content .info .social-media > div i {
   color: #fff;
-  display: block;
 }
 .app .content .info .social-media > div:nth-child(2) {
   margin-left: 10px;
@@ -83,7 +82,7 @@ body {
 .app .content .info .social-media > div:hover {
   border: 1px solid hsl(300deg, 69%, 71%);
 }
-.app .content .info .social-media > div:hover a {
+.app .content .info .social-media > div:hover i {
   color: hsl(300deg, 69%, 71%);
   transition: all 0.27s ease-in;
 }
@@ -155,21 +154,6 @@ body {
     line-height: 30px;
     transition: all 0.27s ease-in;
   }
-  .app .content .info .social-media > div a {
-    color: #fff;
-    display: block;
-  }
-  .app .content .info .social-media > div:nth-child(2) {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .app .content .info .social-media > div:hover {
-    border: 1px solid hsl(300deg, 69%, 71%);
-  }
-  .app .content .info .social-media > div:hover a {
-    color: hsl(300deg, 69%, 71%);
-    transition: all 0.27s ease-in;
-  }
 }
 @media (min-width: 768px) and (max-width: 1199.98px) {
   .app {
@@ -239,7 +223,7 @@ body {
     line-height: 30px;
     transition: all 0.27s ease-in;
   }
-  .app .content .info .social-media > div a {
+  .app .content .info .social-media > div i {
     color: #fff;
     display: block;
   }
@@ -250,7 +234,7 @@ body {
   .app .content .info .social-media > div:hover {
     border: 1px solid hsl(300deg, 69%, 71%);
   }
-  .app .content .info .social-media > div:hover a {
+  .app .content .info .social-media > div:hover i {
     color: hsl(300deg, 69%, 71%);
     transition: all 0.27s ease-in;
   }

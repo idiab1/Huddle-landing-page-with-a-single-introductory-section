@@ -59,9 +59,8 @@
                     border-radius: 50%;
                     line-height: 30px;
                     transition: all .27s ease-in;
-                    a {
+                    i {
                         color: #fff;
-                        display: block;
                     }
 
                     &:nth-child(2) {
@@ -71,7 +70,7 @@
 
                     &:hover {
                         border: 1px solid $soft-magenta;
-                        a {
+                        i {
                             color: $soft-magenta;
                             transition: all .27s ease-in;
                         }
@@ -151,23 +150,7 @@
                         border-radius: 50%;
                         line-height: 30px;
                         transition: all .27s ease-in;
-                        a {
-                            color: #fff;
-                            display: block;
-                        }
-
-                        &:nth-child(2) {
-                            margin-left: 10px;
-                            margin-right: 10px;
-                        }
-
-                        &:hover {
-                            border: 1px solid $soft-magenta;
-                            a {
-                                color: $soft-magenta;
-                                transition: all .27s ease-in;
-                            }
-                        }
+                        
                     }
                 }
             }
@@ -246,7 +229,7 @@
                         border-radius: 50%;
                         line-height: 30px;
                         transition: all .27s ease-in;
-                        a {
+                        i {
                             color: #fff;
                             display: block;
                         }
@@ -258,7 +241,7 @@
 
                         &:hover {
                             border: 1px solid $soft-magenta;
-                            a {
+                            i {
                                 color: $soft-magenta;
                                 transition: all .27s ease-in;
                             }
