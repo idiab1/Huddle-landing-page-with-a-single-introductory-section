@@ -12,16 +12,6 @@ body {
     width: 1170px;
   }
 }
-@media (min-width: 768px) and (max-width: 1199.98px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (max-width: 767.98px) {
-  .container {
-    width: 750px;
-  }
-}
 .app {
   background: url("../../../images/bg-desktop.svg") center center no-repeat hsl(257deg, 40%, 49%);
   background-size: contain;
@@ -98,6 +88,173 @@ body {
   transition: all 0.27s ease-in;
 }
 
+@media (max-width: 767.98px) {
+  .app {
+    background: url("../../../images/bg-mobile.svg") center center no-repeat hsl(257deg, 40%, 49%);
+  }
+  .app .navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .app .navbar img {
+    width: 160px;
+  }
+  .app .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .app .content .image {
+    width: 350px;
+    height: 250px;
+  }
+  .app .content .image img {
+    width: 100%;
+    height: 100%;
+  }
+  .app .content .info {
+    position: relative;
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: center;
+  }
+  .app .content .info h1 {
+    font-size: 1.5rem;
+  }
+  .app .content .info p {
+    font-size: 14px;
+  }
+  .app .content .info button {
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    padding: 12px 60px;
+    border-radius: 35px;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.2);
+    color: hsl(257deg, 40%, 49%);
+    transition: all 0.27s ease-in;
+  }
+  .app .content .info button:hover {
+    color: #fff;
+    background-color: hsl(300deg, 69%, 71%);
+  }
+  .app .content .info .social-media {
+    position: unset;
+    padding-top: 4rem;
+    padding-bottom: 1.6rem;
+  }
+  .app .content .info .social-media > div {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+    transition: all 0.27s ease-in;
+  }
+  .app .content .info .social-media > div a {
+    color: #fff;
+    display: block;
+  }
+  .app .content .info .social-media > div:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .app .content .info .social-media > div:hover {
+    border: 1px solid hsl(300deg, 69%, 71%);
+  }
+  .app .content .info .social-media > div:hover a {
+    color: hsl(300deg, 69%, 71%);
+    transition: all 0.27s ease-in;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .app {
+    background: url("../../../images/bg-desktop.svg") center center no-repeat hsl(257deg, 40%, 49%);
+    background-size: contain;
+  }
+  .app .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .app .navbar img {
+    width: 170px;
+  }
+  .app .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
+  }
+  .app .content .image {
+    width: 470px;
+    height: 350px;
+  }
+  .app .content .image img {
+    width: 100%;
+    height: 100%;
+  }
+  .app .content .info {
+    position: relative;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  .app .content .info h1 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  .app .content .info p {
+    color: #fff;
+    line-height: 1.7;
+    font-size: 15px;
+  }
+  .app .content .info button {
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    padding: 13px 55px;
+    border-radius: 35px;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.2);
+    color: hsl(257deg, 40%, 49%);
+    transition: all 0.27s ease-in;
+  }
+  .app .content .info button:hover {
+    color: #fff;
+    background-color: hsl(300deg, 69%, 71%);
+  }
+  .app .content .info .social-media {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .app .content .info .social-media > div {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+    transition: all 0.27s ease-in;
+  }
+  .app .content .info .social-media > div a {
+    color: #fff;
+    display: block;
+  }
+  .app .content .info .social-media > div:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .app .content .info .social-media > div:hover {
+    border: 1px solid hsl(300deg, 69%, 71%);
+  }
+  .app .content .info .social-media > div:hover a {
+    color: hsl(300deg, 69%, 71%);
+    transition: all 0.27s ease-in;
+  }
+}
 footer {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -110,6 +267,16 @@ footer p a {
   text-decoration: none;
   color: hsl(257deg, 40%, 49%);
   font-weight: bold;
+}
+
+@media (max-width: 1199.98px) {
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  footer p {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
